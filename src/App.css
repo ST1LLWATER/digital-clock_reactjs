@@ -6,21 +6,18 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 .outer {
   position: relative;
   height: 100vh;
-  display: flex;
-  /* flex-direction: column;
-  justify-content: center; */
-  /* align-items: center; */
 }
 
 .time {
   position: absolute;
   left: 50%;
-  top: 46%;
+  top: 50%;
   transform: translate(-50%, -50%);
   font-family: "Goblin One", cursive;
   font-weight: bolder;
@@ -32,20 +29,7 @@ body {
   background-clip: text;
 }
 
-/* .button {
-  padding: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
-  border-radius: 15px;
-  background-color: whitesmoke;
-  font-weight: bold;
-  font-size: 1.2rem;
-  margin: 0 0.7rem;
-  cursor: pointer;
-  color: transparent;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2380F'/%3E%3Cstop offset='1' stop-color='%23f40'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='24' height='24' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23ffffff' cx='12' cy='12' r='12'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.1'/%3E%3C/svg%3E");
-  background-clip: text;
+.foot {
+  position: absolute;
+  top: 100%;
 }
-
-.button:focus {
-  outline: none;
-} */

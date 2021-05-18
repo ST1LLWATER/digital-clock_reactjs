@@ -15,6 +15,7 @@ const App = () => {
   return (
     <>
       <div className="time">{time}</div>
+      <p className="foot">©2020 Alok Punj Sharma All rights reserved</p>
     </>
   );
 };
