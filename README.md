@@ -1,6 +1,6 @@
 A simple digital clock in reactjs
 
-
+![](/public/SS.PNG)
 
 # Getting Started with Create React App
 
